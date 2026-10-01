@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Yaatik Saha for visiting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4A0B16"/>
+      <stop offset="0.5" stop-color="#1A1030"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="140" rx="18"/></clipPath>
+    <style>
+      .t  { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .w1 { animation: drift 12s linear infinite; }
+      .w2 { animation: drift 8s linear infinite reverse; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="140" fill="url(#bg)"/>
+    <g class="w1">
+      <path fill="#2F6FD6" fill-opacity=".4"
+        d="M0 30 Q150 5 300 30 T600 30 T900 30 T1200 30 T1500 30 T1800 30 T2100 30 T2400 30 V0 H0 Z"/>
+    </g>
+    <g class="w2">
+      <path fill="#E70013" fill-opacity=".5"
+        d="M0 20 Q100 2 200 20 T400 20 T600 20 T800 20 T1000 20 T1200 20 T1400 20 T1600 20 T1800 20 T2000 20 T2200 20 T2400 20 V0 H0 Z"/>
+    </g>
+    <text class="t" x="600" y="88" text-anchor="middle" font-size="28" font-weight="700" fill="#FFFFFF">Yaatik Saha for visiting <tspan fill="#E70013">♥</tspan></text>
+    <text class="t" x="600" y="118" text-anchor="middle" font-size="18" fill="#C9D1D9">يعطيك الصحة</text>
+  </g>
+</svg>
