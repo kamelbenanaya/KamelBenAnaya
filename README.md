@@ -1,7 +1,7 @@
 <!-- ═══════════════════════  HEADER  ═══════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E70013,50:B8000F,100:1E3A8A&height=220&section=header&text=Aslema%2C%20I'm%20Kamel%20%F0%9F%87%B9%F0%9F%87%B3&fontSize=46&fontColor=FFFFFF&fontAlignY=36&desc=Senior%20Frontend%20%E2%80%A2%20React%20%26%20Next.js%20%E2%80%A2%20AI-Integrated%20Fullstack&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="header"/>
+<img src="./assets/header.svg" width="100%" alt="Aslema, I'm Kamel — Senior Frontend Developer from Sousse, Tunisia"/>
 
 <a href="https://github.com/kamelbenanaya">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=E70013&center=true&vCenter=true&width=640&lines=%D8%B9%D8%B3%D9%84%D8%A7%D9%85%D8%A9+%E2%80%94+Welcome+from+Sousse%2C+Tunisia+%F0%9F%8C%8A;Shipping+React+19+%2B+Next.js+15+at+scale+%E2%9A%A1;Pixel-perfect+UIs+with+Lighthouse+scores+in+the+90s;Building+SaaS+for+100%2B+corporate+clients;Pairing+with+AI+%E2%80%94+Claude+Code%2C+Cursor%2C+Copilot+%F0%9F%A4%96" alt="typing"/>
@@ -11,7 +11,7 @@
 
 <a href="https://linkedin.com/in/kamel-ben-anaya"><img src="https://img.shields.io/badge/LinkedIn-Kamel%20Ben%20Anaya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:kamel.benanaya001@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Aslema-E70013?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=kamelbenanaya&style=for-the-badge&color=E70013&label=VISITORS" alt="visitors"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=kamelbenanaya.kamelbenanaya&left_text=Visitors&left_color=0D1117&right_color=E70013" height="28" alt="visitors"/>
 
 </div>
 
@@ -19,8 +19,6 @@
 
 <!-- ═══════════════════════  ABOUT  ═══════════════════════ -->
 ## ☪️ `whoami`
-
-<img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamelbenanaya&layout=compact&hide_border=true&bg_color=0D1117&title_color=E70013&text_color=E6EDF3&langs_count=6" alt="top languages"/>
 
 ```ts
 const kamel = {
@@ -36,8 +34,6 @@ const kamel = {
 ```
 
 > *I build interfaces the way Sidi Bou Said is painted — clean white structure, sharp blue details, and nothing out of place.*
-
-<br clear="right"/>
 
 ---
 
@@ -121,7 +117,10 @@ Bilingual **Tunisia ↔ Germany talent-matching platform** — building bridges 
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=kamelbenanaya&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E70013&icon_color=E70013&text_color=E6EDF3&count_private=true" alt="stats"/>
+<sub>🔒 Most of my work lives in private client repositories — contributions below include them, code stays confidential.</sub>
+
+<br/><br/>
+
 <img height="170" src="https://streak-stats.demolab.com?user=kamelbenanaya&hide_border=true&background=0D1117&ring=E70013&fire=E70013&currStreakLabel=E70013&sideLabels=E6EDF3&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="streak"/>
 
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=kamelbenanaya&bg_color=0D1117&color=E6EDF3&line=E70013&point=FFFFFF&area=true&area_color=E70013&hide_border=true&custom_title=Contribution%20waves%20%F0%9F%8C%8A" alt="activity graph"/>
@@ -151,6 +150,6 @@ Bilingual **Tunisia ↔ Germany talent-matching platform** — building bridges 
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:B8000F,100:E70013&height=120&section=footer&text=Yaatik%20Saha%20for%20visiting!&fontSize=22&fontColor=FFFFFF&fontAlignY=70" width="100%" alt="footer"/>
+<img src="./assets/footer.svg" width="100%" alt="Yaatik Saha for visiting"/>
 
 </div>
