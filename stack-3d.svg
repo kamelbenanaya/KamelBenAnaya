@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Animated isometric 3D stack: UI, API and DATA layers with floating cubes and orbiting data">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#160D22"/>
+    </linearGradient>
+    <linearGradient id="redTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#E70013"/>
+    </linearGradient>
+    <linearGradient id="blueTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B93F0"/>
+      <stop offset="1" stop-color="#2F6FD6"/>
+    </linearGradient>
+    <linearGradient id="darkTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A4458"/>
+      <stop offset="1" stop-color="#2B3342"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="420" rx="18"/></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .m { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+      .f1 { animation: float 5s ease-in-out infinite; }
+      .f2 { animation: float 5s ease-in-out -1.7s infinite; }
+      .f3 { animation: float 5s ease-in-out -3.4s infinite; }
+      .b1 { animation: bob 3.2s ease-in-out infinite; }
+      .b2 { animation: bob 4.1s ease-in-out -1s infinite; }
+      .b3 { animation: bob 3.7s ease-in-out -2s infinite; }
+      .flow { stroke-dasharray: 4 8; animation: flow 1s linear infinite; }
+      .orbit { stroke-dasharray: 2 10; animation: spin 6s linear infinite; }
+      .shadow { animation: breathe 5s ease-in-out infinite; transform-origin: 600px 398px; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .pulse2 { animation: pulse 2.4s ease-in-out -1.2s infinite; }
+      @keyframes float  { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes bob    { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+      @keyframes flow   { to { stroke-dashoffset: -24; } }
+      @keyframes spin   { to { stroke-dashoffset: -120; } }
+      @keyframes breathe{ 0%,100% { transform: scaleX(1); opacity: .35; } 50% { transform: scaleX(.88); opacity: .2; } }
+      @keyframes pulse  { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#dots)"/>
+
+    <!-- left copy -->
+    <text class="m" x="50" y="150" font-size="14" fill="#8B949E">// pixel → query</text>
+    <text class="t" x="50" y="192" font-size="34" font-weight="800" fill="#FFFFFF">Built in</text>
+    <text class="t" x="50" y="234" font-size="34" font-weight="800" fill="#E70013">layers.</text>
+    <text class="m" x="50" y="268" font-size="14" fill="#C9D1D9">fast UI · clean API · solid data</text>
+
+    <!-- right metric pills -->
+    <g class="t" font-size="16" font-weight="600">
+      <g class="pulse">
+        <rect x="972" y="128" width="180" height="38" rx="19" fill="#E70013" fill-opacity=".14" stroke="#E70013" stroke-opacity=".7"/>
+        <circle cx="1000" cy="147" r="5" fill="#E70013"/><text x="1070" y="153" text-anchor="middle" fill="#FFFFFF">LCP 1.5s</text>
+      </g>
+      <g class="pulse2">
+        <rect x="972" y="186" width="180" height="38" rx="19" fill="#2F6FD6" fill-opacity=".14" stroke="#2F6FD6" stroke-opacity=".8"/>
+        <circle cx="1000" cy="205" r="5" fill="#5B93F0"/><text x="1070" y="211" text-anchor="middle" fill="#FFFFFF">SEO 100</text>
+      </g>
+      <g class="pulse">
+        <rect x="972" y="244" width="180" height="38" rx="19" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".35"/>
+        <circle cx="1000" cy="263" r="5" fill="#FFFFFF"/><text x="1070" y="269" text-anchor="middle" fill="#FFFFFF">100+ clients</text>
+      </g>
+    </g>
+
+    <!-- orbit -->
+    <ellipse class="orbit" cx="600" cy="215" rx="330" ry="120" fill="none" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1.5"/>
+    <circle r="5" fill="#E70013" filter="url(#glow)">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M270,215 a330,120 0 1,0 660,0 a330,120 0 1,0 -660,0"/>
+    </circle>
+    <circle r="4" fill="#5B93F0" filter="url(#glow)">
+      <animateMotion dur="8s" begin="-4s" repeatCount="indefinite" path="M270,215 a330,120 0 1,0 660,0 a330,120 0 1,0 -660,0"/>
+    </circle>
+
+    <!-- ground shadow -->
+    <ellipse class="shadow" cx="600" cy="398" rx="140" ry="14" fill="#000000" opacity=".35"/>
+
+    <!-- data flow between layers -->
+    <g stroke-width="2" fill="none">
+      <line class="flow" x1="480" y1="117" x2="480" y2="195" stroke="#FF4D5E"/>
+      <line class="flow" x1="720" y1="117" x2="720" y2="195" stroke="#FF4D5E"/>
+      <line class="flow" x1="480" y1="217" x2="480" y2="295" stroke="#5B93F0"/>
+      <line class="flow" x1="720" y1="217" x2="720" y2="295" stroke="#5B93F0"/>
+    </g>
+
+    <!-- LAYER 3 — DATA -->
+    <g class="f3">
+      <polygon points="480,295 600,355 600,375 480,315" fill="#1C222D"/>
+      <polygon points="600,355 720,295 720,315 600,375" fill="#141920"/>
+      <polygon points="600,235 720,295 600,355 480,295" fill="url(#darkTop)" stroke="#FFFFFF" stroke-opacity=".18"/>
+      <text class="t" transform="matrix(1 0.5 -1 0.5 600 295)" text-anchor="middle" y="7" font-size="22" font-weight="800" fill="#FFFFFF">DATA</text>
+      <text class="m" transform="matrix(1 -0.5 0 1 612 368)" font-size="10" fill="#8B949E">SQL · CACHE</text>
+    </g>
+
+    <!-- LAYER 2 — API -->
+    <g class="f2">
+      <polygon points="480,195 600,255 600,275 480,215" fill="#1F4FA0"/>
+      <polygon points="600,255 720,195 720,215 600,275" fill="#163B78"/>
+      <polygon points="600,135 720,195 600,255 480,195" fill="url(#blueTop)" stroke="#FFFFFF" stroke-opacity=".25"/>
+      <text class="t" transform="matrix(1 0.5 -1 0.5 600 195)" text-anchor="middle" y="7" font-size="22" font-weight="800" fill="#FFFFFF">API</text>
+      <text class="m" transform="matrix(1 -0.5 0 1 612 268)" font-size="10" fill="#DCE8FF">REST · AUTH</text>
+    </g>
+
+    <!-- LAYER 1 — UI -->
+    <g class="f1">
+      <polygon points="480,95 600,155 600,175 480,115" fill="#A3000E"/>
+      <polygon points="600,155 720,95 720,115 600,175" fill="#7A000A"/>
+      <polygon points="600,35 720,95 600,155 480,95" fill="url(#redTop)" stroke="#FFFFFF" stroke-opacity=".35"/>
+      <text class="t" transform="matrix(1 0.5 -1 0.5 600 95)" text-anchor="middle" y="7" font-size="22" font-weight="800" fill="#FFFFFF">UI</text>
+      <text class="m" transform="matrix(1 -0.5 0 1 612 168)" font-size="10" fill="#FFE3E6">60 FPS · A11Y</text>
+    </g>
+
+    <!-- floating mini cubes -->
+    <g class="b1">
+      <polygon points="330,112 346,120 330,128 314,120" fill="#FF4D5E"/>
+      <polygon points="314,120 330,128 330,144 314,136" fill="#A3000E"/>
+      <polygon points="330,128 346,120 346,136 330,144" fill="#7A000A"/>
+      <text class="m" x="330" y="102" text-anchor="middle" font-size="13" fill="#FFFFFF">&lt;/&gt;</text>
+    </g>
+    <g class="b2">
+      <polygon points="390,292 406,300 390,308 374,300" fill="#5B93F0"/>
+      <polygon points="374,300 390,308 390,324 374,316" fill="#1F4FA0"/>
+      <polygon points="390,308 406,300 406,316 390,324" fill="#163B78"/>
+      <text class="m" x="390" y="282" text-anchor="middle" font-size="13" fill="#FFFFFF">{ }</text>
+    </g>
+    <g class="b3">
+      <polygon points="860,102 876,110 860,118 844,110" fill="#FFFFFF"/>
+      <polygon points="844,110 860,118 860,134 844,126" fill="#C9D1D9"/>
+      <polygon points="860,118 876,110 876,126 860,134" fill="#8B949E"/>
+      <text class="m" x="860" y="92" text-anchor="middle" font-size="13" fill="#FFFFFF">=&gt;</text>
+    </g>
+    <g class="b1">
+      <polygon points="820,282 836,290 820,298 804,290" fill="#FF4D5E"/>
+      <polygon points="804,290 820,298 820,314 804,306" fill="#A3000E"/>
+      <polygon points="820,298 836,290 836,306 820,314" fill="#7A000A"/>
+      <text class="m" x="820" y="272" text-anchor="middle" font-size="13" fill="#FFFFFF">fn</text>
+    </g>
+    <g class="b3">
+      <polygon points="290,202 302,208 290,214 278,208" fill="#FFFFFF" fill-opacity=".85"/>
+      <polygon points="278,208 290,214 290,226 278,220" fill="#C9D1D9"/>
+      <polygon points="290,214 302,208 302,220 290,226" fill="#8B949E"/>
+    </g>
+    <g class="b2">
+      <polygon points="915,202 927,208 915,214 903,208" fill="#5B93F0"/>
+      <polygon points="903,208 915,214 915,226 903,220" fill="#1F4FA0"/>
+      <polygon points="915,214 927,208 927,220 915,226" fill="#163B78"/>
+    </g>
+  </g>
+</svg>
