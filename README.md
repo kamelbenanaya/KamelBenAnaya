@@ -1,7 +1,7 @@
 <!-- ═══════════════════════  HEADER  ═══════════════════════ -->
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Aslema, I'm Kamel — Senior Frontend Developer from Sousse, Tunisia"/>
+<img src="header.svg" width="100%" alt="Aslema, I'm Kamel — Senior Frontend Developer from Sousse, Tunisia"/>
 
 <a href="https://github.com/kamelbenanaya">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=E70013&center=true&vCenter=true&width=640&lines=%D8%B9%D8%B3%D9%84%D8%A7%D9%85%D8%A9+%E2%80%94+Welcome+from+Sousse%2C+Tunisia+%F0%9F%8C%8A;Shipping+React+19+%2B+Next.js+15+at+scale+%E2%9A%A1;Pixel-perfect+UIs+with+Lighthouse+scores+in+the+90s;Building+SaaS+for+100%2B+corporate+clients;Pairing+with+AI+%E2%80%94+Claude+Code%2C+Cursor%2C+Copilot+%F0%9F%A4%96" alt="typing"/>
