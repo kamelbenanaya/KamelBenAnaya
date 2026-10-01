@@ -150,6 +150,6 @@ Bilingual **Tunisia ↔ Germany talent-matching platform** — building bridges 
 
 <br/>
 
-<img src="./assets/footer.svg" width="100%" alt="Yaatik Saha for visiting"/>
+<img src="footer.svg" width="100%" alt="Yaatik Saha for visiting"/>
 
 </div>
