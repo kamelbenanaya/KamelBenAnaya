@@ -42,6 +42,10 @@ const kamel = {
 
 <div align="center">
 
+<img src="stack-3d.svg" width="100%" alt="Animated 3D stack: UI, API and DATA layers"/>
+
+<br/>
+
 **Frontend**
 <br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,redux&theme=dark" />
